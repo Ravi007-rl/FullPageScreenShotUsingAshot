@@ -24,7 +24,7 @@ public class FullPageScreenShotDemo {
 
         //Full page screenshot demo
         Screenshot fpScreenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
-        ImageIO.write(fpScreenshot.getImage(),"PNG",new File(".//ScreenShot//ullPageScreenshot.png"));
+        ImageIO.write(fpScreenshot.getImage(),"PNG",new File(".//ScreenShot//FullPageScreenshot.png"));
         driver.quit();
     }
 }
